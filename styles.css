@@ -24,7 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+   
     padding: 20px;
     
 
@@ -33,7 +33,6 @@ body{
 .qrCard{
     background-color: white;
     border-radius: 10px;
-    width: 90%;
    
 }
 
@@ -63,8 +62,8 @@ img{
 }
 }
 
-@media (max-width: 768px){
+@media (min-width: 1440px){
 .qrCard{
-    width: 80%;
+    width: 20%;
 }
 }
